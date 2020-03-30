@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>bbb</title>
+    <style>
+      li{
+        list-style: none;
+        width:200px;
+        dislay: block;
+      }
+      a{
+        display: block;
+        background-color: #999;
+        color:#000;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+        height: 50px;
+        border: 1px solid #000;
+        color: green;
+      }
+      .global-menu li{
+        display: block;
+        width: 200px;
+        border: 1px solid #fff;
+        padding-left: 50px;
+        padding-right: 50px
+      }
+      .global-menu li a{
+        line-height: 50px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+
+      }
+      .global-menu li a:hover{
+        backgound-color: blue;
+        color: red;
+        border: 1px solid #fff;
+        border-bottom: none;
+      }
+      .global-menu li: last-child a{
+        border-bottom: 1px solid #000;
+
+      }
+      .global-menu li:nth-child(even){
+        color: green;
+
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="global-menu">
+      <li><a href="#">menu1</a></li>
+      <li><a href="#">menu2</a></li>
+      <li><a href="#">menu3</a></li>
+      <li><a href="#">menu4</a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>css2</title>
+    <style >
+      <!-- li{
+        width: 200px;
+        padding: 10px;
+
+      }
+      li:first-child {
+        color:red;
+
+      }
+      li:last-child{
+        color:blue;
+      }
+      li:nth-child(2){
+        color:green;
+      } -->
+      .sub-menu li:nth-child(even){
+        color: green;
+      }
+      .sub-menu li:nth-child(odd){
+        color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>menu1</li>
+      <li>menu2</li>
+      <li>menu3</li>
+      <li>menu4</li>
+    </ul>
+    <ul class="sub-menu">
+      <li>menu1</li>
+      <li>menu2</li>
+      <li>menu3</li>
+      <li>menu4</li>
+    </ul>
+  </body>
+</html>
